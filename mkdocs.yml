@@ -1,0 +1,7 @@
+site_name: DevDocs Hub - Tienda OS
+site_description: Documentación oficial para el equipo de desarrollo.
+theme:
+  name: readthedocs
+nav:
+  - Inicio: index.md
+  - Arquitectura: arquitectura.md
