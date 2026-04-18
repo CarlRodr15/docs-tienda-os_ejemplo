@@ -5,3 +5,5 @@ theme:
 nav:
   - Inicio: index.md
   - Arquitectura: arquitectura.md
+  - ADRs: 
+      - 001 Selección de Stack: adrs/001-seleccion-stack.md
