@@ -1,7 +1,14 @@
 site_name: DevDocs Hub - Tienda OS
 site_url: https://carlrodr15.github.io/docs-tienda-os_ejemplo/
+theme:
+  name: material # Estilo moderno de industria
+  palette:
+    primary: indigo
 
 nav:
   - Inicio: index.md
-  - ADRs:
+  - Arquitectura: arquitectura.md
+  - API Interactiva: api/openapi.yaml
+  - Memoria Técnica (ADRs):
     - 001 Selección de Stack: adrs/ADR-001-Stack.md
+    - 002 Estrategia Git: adrs/ADR-002-Estrategia-Git.md

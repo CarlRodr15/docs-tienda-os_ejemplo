@@ -1,46 +1,21 @@
-# 🛒 OpenSource Store Template
-> Sistema de gestión de inventarios y ventas basado en arquitecturas desacopladas.
+# 🛒 OpenSource Store - Alcaldía Municipal
+> Plataforma de comercio electrónico para el fomento de la economía local y la transformación digital.
 
-![Version](https://img.shields.io/badge/Version-1.0.0--beta-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Estado-Producción-brightgreen?style=for-the-badge)
+![CI/CD](https://img.shields.io/badge/Pipeline-MkDocs_Active-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-![Docs](https://img.shields.io/badge/Docs-As--Code-brightgreen?style=for-the-badge)
 
-## 🚀 Onboarding en 3 Pasos
-1. **Configuración:** `cp .env.example .env`
-2. **Dependencias:** `npm install` o `pip install -r requirements.txt`
-3. **Lanzamiento:** `npm start`
+## 📖 Onboarding Rápido (< 10 min)
+[cite_start]Para cumplir con la competencia de "especificar para interoperabilidad", este entorno debe estar listo rápidamente[cite: 45]:
 
-## 📊 Arquitectura del Sistema
-A diferencia de un diagrama estático, aquí usamos **PlantUML** para asegurar que el diseño evolucione con el código:
+1. **Clonación:** `git clone https://github.com/CarlRodr15/docs-tienda-os_ejemplo.git`
+2. **Dependencias:** `npm install`
+3. **Entorno:** `cp .env.example .env`
+4. **Ejecución:** `npm run dev`
 
-![Diagrama de Arquitectura](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/CarlRodr15/docs-tienda-os_ejemplo/main/docs/arquitectura/c4_model.puml)
+## 🛠️ Especificación Técnica
+[cite_start]El sistema utiliza un contrato vivo basado en el estándar global OpenAPI para describir y documentar la API[cite: 8]. [cite_start]Esto permite que humanos y máquinas lean la estructura de forma clara[cite: 9].
 
-## 🧪 Validación de Calidad
+## 🧪 Control de Calidad
 ```bash
-npm run test:unit    # Pruebas de lógica de carrito
-npm run test:e2e     # Pruebas de flujo de compra completo
-```
-
----
-
-### Paso 3: Los 10 ADRs (Materia: Avanzada)
-Para la **Fase 4 de Avanzada**, crea 10 archivos dentro de `docs/adrs/`. Aquí tienes la lista de títulos y el contenido del primero como plantilla:
-
-**Lista de archivos:**
-`ADR-001-Stack.md`, `ADR-002-BaseDatos.md`, `ADR-003-Auth.md`, `ADR-004-Pagos.md`, `ADR-005-UI-Framework.md`, `ADR-006-API-Standard.md`, `ADR-007-Cloud-Provider.md`, `ADR-008-Branch-Strategy.md`, `ADR-009-Logging.md`, `ADR-010-Testing-Library.md`.
-
-**Plantilla para `ADR-001-Stack.md`:**
-```markdown
-# ADR 001: Selección del Stack Tecnológico
-**Fecha:** 2026-05-09
-**Estado:** Aceptado
-
-## Contexto
-Necesitamos una tecnología que permita el despliegue rápido y tenga una comunidad amplia para soporte institucional.
-
-## Decisión
-Se elige **Node.js con Express** para el backend y **React** para el frontend.
-
-## Consecuencias
-*   **Positivo:** Facilidad de contratación de devs.
-*   **Negativo:** Curva de aprendizaje inicial en Hooks.
+npm test # Ejecuta las pruebas de lógica de negocio
