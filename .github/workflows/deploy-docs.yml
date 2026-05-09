@@ -1,27 +1,14 @@
-name: Desplegar Docs 🚀
-
-# ¿Cuándo se ejecuta?
+name: Deploy Docs
 on:
   push:
-    branches:
-      - main
-
-permissions:
-  contents: write
-
+    branches: [main]
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Instalar Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v3
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          python-version: 3.x
-
-      - name: Instalar MkDocs
-        run: pip install mkdocs
-
-      - name: Construir y Desplegar Web
-        run: mkdocs gh-deploy --force
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./README.md # O la carpeta de la Wiki

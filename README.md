@@ -20,3 +20,27 @@ A diferencia de un diagrama estático, aquí usamos **PlantUML** para asegurar q
 npm run test:unit    # Pruebas de lógica de carrito
 npm run test:e2e     # Pruebas de flujo de compra completo
 ```
+
+---
+
+### Paso 3: Los 10 ADRs (Materia: Avanzada)
+Para la **Fase 4 de Avanzada**, crea 10 archivos dentro de `docs/adrs/`. Aquí tienes la lista de títulos y el contenido del primero como plantilla:
+
+**Lista de archivos:**
+`ADR-001-Stack.md`, `ADR-002-BaseDatos.md`, `ADR-003-Auth.md`, `ADR-004-Pagos.md`, `ADR-005-UI-Framework.md`, `ADR-006-API-Standard.md`, `ADR-007-Cloud-Provider.md`, `ADR-008-Branch-Strategy.md`, `ADR-009-Logging.md`, `ADR-010-Testing-Library.md`.
+
+**Plantilla para `ADR-001-Stack.md`:**
+```markdown
+# ADR 001: Selección del Stack Tecnológico
+**Fecha:** 2026-05-09
+**Estado:** Aceptado
+
+## Contexto
+Necesitamos una tecnología que permita el despliegue rápido y tenga una comunidad amplia para soporte institucional.
+
+## Decisión
+Se elige **Node.js con Express** para el backend y **React** para el frontend.
+
+## Consecuencias
+*   **Positivo:** Facilidad de contratación de devs.
+*   **Negativo:** Curva de aprendizaje inicial en Hooks.
