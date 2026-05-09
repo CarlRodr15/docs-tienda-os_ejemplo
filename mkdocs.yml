@@ -1,10 +1,7 @@
 site_name: DevDocs Hub - Tienda OS
 site_url: https://carlrodr15.github.io/docs-tienda-os_ejemplo/
-theme:
-  name: readthedocs
 
 nav:
   - Inicio: index.md
-  - Arquitectura: arquitectura.md
   - ADRs:
     - 001 Selección de Stack: adrs/ADR-001-Stack.md
