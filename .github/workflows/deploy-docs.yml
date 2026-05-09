@@ -1,14 +1,18 @@
-name: Deploy Docs
+name: Deploy MkDocs
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./README.md # O la carpeta de la Wiki
+          python-version: 3.x
+      - name: Instalar MkDocs
+        run: pip install mkdocs
+      - name: Desplegar en GitHub Pages
+        run: mkdocs gh-deploy --force
