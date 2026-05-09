@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 ## 📖 Onboarding Rápido (< 10 min)
-[cite_start]Para cumplir con la competencia de "especificar para interoperabilidad", este entorno debe estar listo rápidamente[cite: 45]:
+Para cumplir con la competencia de "especificar para interoperabilidad", este entorno debe estar listo rápidamente:
 
 1. **Clonación:** `git clone https://github.com/CarlRodr15/docs-tienda-os_ejemplo.git`
 2. **Dependencias:** `npm install`
@@ -14,8 +14,9 @@
 4. **Ejecución:** `npm run dev`
 
 ## 🛠️ Especificación Técnica
-[cite_start]El sistema utiliza un contrato vivo basado en el estándar global OpenAPI para describir y documentar la API[cite: 8]. [cite_start]Esto permite que humanos y máquinas lean la estructura de forma clara[cite: 9].
+El sistema utiliza un contrato vivo basado en el estándar global OpenAPI para describir y documentar la API. Esto permite que humanos y máquinas lean la estructura de forma clara.
 
 ## 🧪 Control de Calidad
 ```bash
 npm test # Ejecuta las pruebas de lógica de negocio
+```
