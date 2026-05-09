@@ -3,6 +3,11 @@ on:
   push:
     branches:
       - main
+
+# ¡ESTA ES LA LÍNEA MÁGICA QUE SOLUCIONA EL EXIT CODE 1!
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
