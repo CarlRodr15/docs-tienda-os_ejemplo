@@ -8,7 +8,7 @@ theme:
 nav:
   - Inicio: index.md
   - Arquitectura: arquitectura.md
-  - API Interactiva: api/openapi.yaml
+  - API Interactiva: api.md
   - Memoria Técnica (ADRs):
     - 001 Selección de Stack: adrs/ADR-001-Stack.md
     - 002 Estrategia Git: adrs/ADR-002-Estrategia-Git.md
