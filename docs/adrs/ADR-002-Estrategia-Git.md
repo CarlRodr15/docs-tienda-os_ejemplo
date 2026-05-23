@@ -1,5 +1,5 @@
 # ADR 002: Estrategia de Ramificación
-[cite_start]**Fecha:** 25 de Abril de 2026 [cite: 39]
+**Fecha:** 25 de Abril de 2026 [cite: 39]
 **Estado:** Aceptado
 
 ## Decisión

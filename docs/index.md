@@ -1,4 +1,6 @@
 # 🛒 OpenSource Store - Alcaldía Municipal
+# 🛒 OpenSource Store - Alcaldía Municipal
+# 🛒 OpenSource Store - Alcaldía Municipal
 > Plataforma de comercio electrónico para el fomento de la economía local y la transformación digital.
 
 ![Status](https://img.shields.io/badge/Estado-Producción-brightgreen?style=for-the-badge)

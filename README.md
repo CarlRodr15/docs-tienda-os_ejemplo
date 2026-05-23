@@ -29,6 +29,8 @@ Para la **Fase 4 de Avanzada**, crea 10 archivos dentro de `docs/adrs/`. Aquí t
 **Lista de archivos:**
 `ADR-001-Stack.md`, `ADR-002-BaseDatos.md`, `ADR-003-Auth.md`, `ADR-004-Pagos.md`, `ADR-005-UI-Framework.md`, `ADR-006-API-Standard.md`, `ADR-007-Cloud-Provider.md`, `ADR-008-Branch-Strategy.md`, `ADR-009-Logging.md`, `ADR-010-Testing-Library.md`.
 
+![Arquitectura](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/CarlRodr15/docs-tienda-os_ejemplo/main/docs/arquitectura/sistema.puml)
+
 **Plantilla para `ADR-001-Stack.md`:**
 ```markdown
 # ADR 001: Selección del Stack Tecnológico
