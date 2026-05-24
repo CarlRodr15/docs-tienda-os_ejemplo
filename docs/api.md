@@ -11,5 +11,5 @@ hide:
 
 A continuación se detalla la especificación técnica y los endpoints disponibles para integración.
 
-<redoc spec-url="/docs-tienda-os_ejemplo/api/api-new.yaml"></redoc>
+<redoc spec-url="api-nueva.yaml"></redoc>
 <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
