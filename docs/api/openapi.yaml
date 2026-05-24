@@ -1,25 +1,33 @@
 openapi: 3.0.0
 info:
-  title: OpenSource Store API
-  description: Interfaz para la gestión de ventas locales.
+  title: API Semilleros de Robótica
+  description: Interfaz técnica para administrar el inventario de kits y el registro de participantes en los laboratorios STEAM.
   version: 1.0.0
 paths:
-  /productos:
+  /inventario:
     get:
-      summary: Lista catálogo institucional.
+      summary: Consultar inventario de kits.
+      description: Devuelve una lista de los equipos (placas, sensores, motores) disponibles en el laboratorio.
       responses:
         '200':
-          description: OK
-  /pedidos:
+          description: Catálogo obtenido exitosamente.
+  /inscripciones:
     post:
-      summary: Registra una nueva compra.
-      security:
-        - bearerAuth: []
+      summary: Registrar nuevo integrante.
+      description: Añade un estudiante a un grupo de trabajo específico del semillero.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nombre_completo:
+                  type: string
+                  example: "Laura Gómez"
+                grado:
+                  type: string
+                  example: "10A"
       responses:
         '201':
-          description: Creado
-components:
-  securitySchemes:
-    bearerAuth:
-      type: http
-      scheme: bearer
+          description: Integrante registrado correctamente.
