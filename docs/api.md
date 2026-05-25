@@ -15,6 +15,4 @@ A continuación se detalla la especificación técnica y los endpoints disponibl
 <div>
   <redoc spec-url="./api-ruta.yaml"></redoc>
 </div>
-
 <script src="https://cdn.redocly.com/redoc/latest/bundles/redoc.standalone.js"></script>
-
