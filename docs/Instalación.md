@@ -1,7 +1,3 @@
-Aquí tienes una versión mucho más compacta, directa y con un formato limpio y elegante, ideal para un archivo `README.md` profesional.
-
----
-
 ## 🛠️ Guía de Instalación Rápida
 
 Sigue estos tres sencillos pasos para ejecutar **Ruta Cultural** en tu entorno local.
@@ -55,4 +51,4 @@ npm start                    # Corre en http://localhost:3000
 | **Backend** | `http://localhost:5000` | Lógica de negocio y geolocalización de comercios. |
 | **Frontend** | `http://localhost:3000` | Interfaz de usuario, mapas y filtros culturales. |
 
-¡Listo! El sistema estará completamente operativo en tu navegador. ¿Hay algún comando específico de tu proyecto que prefieras que omitamos o simplifiquemos aún más?
+¡Listo! El sistema estará completamente operativo en tu navegador.
