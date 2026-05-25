@@ -12,5 +12,9 @@ hide:
 
 A continuación se detalla la especificación técnica y los endpoints disponibles para integración.
 
-<redoc spec-url="./api-new.yaml"></redoc>
+<div>
+  <redoc spec-url="./api-ruta.yaml"></redoc>
+</div>
+
 <script src="https://cdn.redocly.com/redoc/latest/bundles/redoc.standalone.js"></script>
+
