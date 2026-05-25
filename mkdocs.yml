@@ -17,4 +17,5 @@ nav:
   - Memoria Técnica (ADRs):
     - 001 Selección de Stack: adrs/ADR-001-Stack.md
     - 002 Estrategia Git: adrs/ADR-002-Estrategia-Git.md
-    - 003 Historia: adrs/ADR-003-Historia.md
+    - 003 Historia: adrs/ADR-003-historia.md
+    
