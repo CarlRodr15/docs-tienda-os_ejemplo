@@ -2,4 +2,4 @@
 
 A continuación se presenta el diseño visual del mapa interactivo para los turistas:
 
-![Mapa del sitio](./assets/Logo Aplicacion.jpg)
+![Mapa del sitio](./Logo Aplicacion.jpg)
