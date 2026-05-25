@@ -38,9 +38,15 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 
 ## Tecnologías Utilizadas
 El proyecto utiliza las siguientes tecnologías y conceptos:
+
 - Lenguaje de programación: Python.
+
 - Paradigma: Programación Orientada a Objetos, POO.
+
 - Arquitectura: Organización modular del código.
+
 - Principios de desarrollo: Principios SOLID.
+
 - Control de versiones: Git y GitHub.
+
 - Diseño de experiencia de usuario: Heurísticas de usabilidad.
