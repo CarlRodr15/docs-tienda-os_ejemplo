@@ -12,7 +12,7 @@ nav:
   - Manual: Manual.md
   - Instalación: Instalación.md
   - Gastronomía y Artesanía: artesanias.md
-  - Historia: historia.md
+  - Historia: histo.md
   - Mapa interactivo: Mapa-interactivo.md
   - Memoria Técnica (ADRs):
     - 001 Selección de Stack: adrs/ADR-001-Stack.md
