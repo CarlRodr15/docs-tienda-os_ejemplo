@@ -1,16 +1,3 @@
-# Arquitectura de Software
-La memoria técnica del sistema se basa en un diseño modular que permite la escalabilidad institucional.
-
-## Diagrama de Contenedores (C4 Model)
-Este diagrama se renderiza dinámicamente:
-
-![Arquitectura](https://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml)
-
-**Componentes Principales:**
-* **Web Frontend:** Interfaz en React para el ciudadano.
-* **API Gateway:** Punto único de entrada para seguridad y tráfico.
-* **Servicio de Inventario:** Gestión de productos en PostgreSQL.
-
 # 🏛️ Arquitectura de Software — Ruta Cultural
 
 La memoria técnica del sistema se basa en un diseño modular que permite la escalabilidad, mantenibilidad y una correcta separación de responsabilidades para potenciar la experiencia del usuario (UI/UX) y la promoción del comercio local.
