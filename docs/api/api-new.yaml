@@ -1,33 +1,125 @@
-openapi: 3.0.0
+openapi: 3.0.3
 info:
-  title: API Semilleros de Robótica
-  description: Interfaz técnica para administrar el inventario de kits y el registro de participantes en los laboratorios STEAM.
+  title: API Ruta Cultural (1.0.0)
+  description: Interfaz técnica para la gestión del catálogo de gastronomía tradicional, artesanías locales y el motor de geolocalización de Calima El Darién.
   version: 1.0.0
+servers:
+  - url: http://localhost:5000/api/v1
+    description: Servidor Local de Desarrollo
+
 paths:
-  /inventario:
+  /comercios:
     get:
-      summary: Consultar inventario de kits.
-      description: Devuelve una lista de los equipos (placas, sensores, motores) disponibles en el laboratorio.
+      summary: Consultar catálogo de comercios.
+      description: Devuelve una lista estructurada de los comercios aliados (restaurantes de cocina de nostalgia, talleres artesanales) con soporte de filtrado predictivo.
+      parameters:
+        - name: categoria
+          in: query
+          description: Filtrar por tipo de establecimiento.
+          required: false
+          schema:
+            type: string
+            enum: [gastronomia, artesanias]
+        - name: destacado
+          in: query
+          description: Filtrar comercios con alta valoración o relevancia histórica.
+          required: false
+          schema:
+            type: boolean
       responses:
         '200':
           description: Catálogo obtenido exitosamente.
-  /inscripciones:
+          content:
+            application/json:
+              example:
+                - id: 1
+                  nombre: "La Cuchara de Palo"
+                  categoria: "gastronomia"
+                  descripcion: "Cocina de nostalgia dedicada al rescate de recetas tradicionales y sabores de antaño."
+                  destacado: true
+
+  /ubicaciones:
+    get:
+      summary: Consultar coordenadas para el mapa.
+      description: Obtiene los puntos geográficos de interés (coordenadas espaciales) requeridos por el Web Frontend para renderizar el mapa interactivo.
+      responses:
+        '200':
+          description: Puntos de geolocalización extraídos correctamente.
+          content:
+            application/json:
+              example:
+                - comercio_id: 1
+                  nombre: "La Cuchara de Palo"
+                  latitud: 3.9312
+                  longitud: -76.4856
+                  direccion: "Calle Principal, Calima El Darién"
+
+  /rutas/calcular:
     post:
-      summary: Registrar nuevo integrante.
-      description: Añade un estudiante a un grupo de trabajo específico del semillero.
+      summary: Calcular trayecto sugerido.
+      description: Genera una ruta cultural óptima uniendo puntos del mapa basados en el posicionamiento en tiempo real del ciudadano y sus preferencias de interés.
       requestBody:
         required: true
         content:
           application/json:
             schema:
               type: object
+              required:
+                - usuario_lat
+                - usuario_lng
               properties:
-                nombre_completo:
+                usuario_lat:
+                  type: number
+                  format: float
+                  example: 3.9300
+                usuario_lng:
+                  type: number
+                  format: float
+                  example: -76.4800
+                categoria_interes:
                   type: string
-                  example: "Laura Gómez"
-                grado:
-                  type: string
-                  example: "10A"
+                  example: "gastronomia"
       responses:
         '201':
-          description: Integrante registrado correctamente.
+          description: Trayecto calculado de manera exitosa.
+          content:
+            application/json:
+              example:
+                ruta_id: "ruta_987"
+                distancia_total_km: 1.5
+                tiempo_estimado_min: 18
+                paradas:
+                  - orden: 1
+                    nombre: "Punto de Origen (Tu Ubicación)"
+                  - orden: 2
+                    nombre: "La Cuchara de Palo"
+
+  /comercios/{id}/productos:
+    get:
+      summary: Consultar productos de un comercio.
+      description: Extrae la lista detallada de platos típicos o artesanías específicas pertenecientes a un comercio mediante su identificador único.
+      parameters:
+        - name: id
+          in: path
+          description: ID numérico del comercio a consultar.
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Productos del comercio obtenidos con éxito.
+          content:
+            application/json:
+              example:
+                comercio: "La Cuchara de Palo"
+                productos:
+                  - id: 101
+                    nombre: "Plato Tradicional de Antaño"
+                    precio: 25000
+                    disponible: true
+        '404':
+          description: Comercio no encontrado.
+          content:
+            application/json:
+              example:
+                error: "El comercio especificado no fue encontrado en la base de datos."
