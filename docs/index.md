@@ -29,8 +29,8 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
 - Visual Studio Code u otro editor de código.
 - Conexión a internet para clonar el repositorio o subir cambios a GitHub.
 Para verificar si tienes Python instalado, puedes ejecutar:
-```bash
-python --version
+- ```bash
+- python --version
 
 ## Uso
 
