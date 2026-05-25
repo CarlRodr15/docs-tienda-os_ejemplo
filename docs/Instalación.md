@@ -1,86 +1,58 @@
-🚀 Guía de Instalación y Configuración
-Sigue estos pasos para clonar el proyecto y ejecutarlo en tu entorno local.
+Aquí tienes una versión mucho más compacta, directa y con un formato limpio y elegante, ideal para un archivo `README.md` profesional.
 
-📋 Prerrequisitos
-Antes de comenzar, asegúrate de tener instalado en tu sistema:
+---
 
-Git (Para clonar el repositorio)
+## 🛠️ Guía de Instalación Rápida
 
-Node.js (Versión LTS recomendada)
+Sigue estos tres sencillos pasos para ejecutar **Ruta Cultural** en tu entorno local.
 
-Python (Versión 3.10 o superior)
+### 📋 Prerrequisitos
 
-PostgreSQL con la extensión PostGIS activa.
+Asegúrate de tener instalado: **Git**, **Node.js**, **Python 3.10+** y **PostgreSQL (con PostGIS)**.
 
-1. Clonar el Repositorio
-Abre tu terminal y ejecuta el siguiente comando para traer el proyecto a tu máquina:
+---
 
-Bash
+### Paso 1: Clonar el Proyecto
+
+Abre tu terminal y descarga el repositorio:
+
+```bash
 git clone https://github.com/TU_USUARIO/RutaCultural.git
 cd RutaCultural
-2. Configuración de la Base de Datos
-Abre tu gestor de PostgreSQL (o usando psql en la terminal) y crea una base de datos llamada ruta_cultural_db.
 
-Habilita la extensión espacial ejecutando la siguiente consulta:
+```
 
-SQL
-CREATE EXTENSION postgis;
-3. Configuración del Backend 🐍
-Navega a la carpeta del servidor para instalar las dependencias y levantar la API:
+### Paso 2: Servidor (Backend) 🐍
 
-Entrar al directorio:
+Configura el entorno e inicia la API del sistema:
 
-Bash
+```bash
 cd backend
-Crear y activar un entorno virtual (Recomendado para mantener las dependencias limpias):
-
-En Windows:
-
-Bash
-python -m venv venv
-.\venv\Scripts\activate
-En macOS/Linux:
-
-Bash
-python3 -m venv venv
-source venv/bin/activate
-Instalar dependencias:
-
-Bash
+python -m venv venv          # Crea el entorno virtual
+source venv/bin/activate     # En Windows usa: .\venv\Scripts\activate
 pip install -r requirements.txt
-Configurar variables de entorno:
-Crea un archivo llamado .env en la raíz de la carpeta backend y añade las credenciales de tu base de datos:
+python main.py               # Corre en http://localhost:5000
 
-Fragmento de código
-DB_HOST=localhost
-DB_USER=tu_usuario_postgres
-DB_PASSWORD=tu_contraseña
-DB_NAME=ruta_cultural_db
-PORT=5000
-Iniciar el servidor:
+```
 
-Bash
-python main.py
-(El backend debería quedar corriendo en http://localhost:5000)
+> **Nota:** Recuerda crear un archivo `.env` en esta carpeta con las credenciales de tu base de datos (`DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME`).
 
-4. Configuración del Frontend 🌐
-Abre una nueva pestaña o ventana de la terminal y regresa a la raíz del proyecto para configurar la interfaz de usuario:
+### Paso 3: Interfaz (Frontend) 🌐
 
-Entrar al directorio del cliente:
+En una nueva terminal, levanta la aplicación web interactiva:
 
-Bash
+```bash
 cd frontend
-Instalar los paquetes y dependencias de Node:
+npm install                  # Instala las dependencias
+npm start                    # Corre en http://localhost:3000
 
-Bash
-npm install
-Configurar la conexión con la API:
-Crea un archivo .env en la raíz de la carpeta frontend:
+```
 
-Fragmento de código
-REACT_APP_API_URL=http://localhost:5000
-Ejecutar la aplicación en modo desarrollo:
+---
 
-Bash
-npm start
-¡Listo! Tu navegador debería abrir automáticamente una pestaña en http://localhost:3000 mostrando la aplicación interactiva de la Ruta Cultural.
+| Componente | Entorno Local | Función Principal |
+| --- | --- | --- |
+| **Backend** | `http://localhost:5000` | Lógica de negocio y geolocalización de comercios. |
+| **Frontend** | `http://localhost:3000` | Interfaz de usuario, mapas y filtros culturales. |
+
+¡Listo! El sistema estará completamente operativo en tu navegador. ¿Hay algún comando específico de tu proyecto que prefieras que omitamos o simplifiquemos aún más?
