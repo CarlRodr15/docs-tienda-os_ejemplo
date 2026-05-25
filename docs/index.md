@@ -24,9 +24,13 @@ Esta aplicación busca solucionar ese problema centralizando la información en 
 
 ## Requisitos previos
 Antes de ejecutar el proyecto, asegúrate de tener instalado:
+
 - Python 3.0.0 o superior.
+
 - Git.
+
 - Visual Studio Code u otro editor de código.
+
 - Conexión a internet para clonar el repositorio o subir cambios a GitHub.
 
 ## Uso
