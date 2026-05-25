@@ -9,7 +9,7 @@ nav:
   - Inicio: index.md
   - Arquitectura: arquitectura.md
   - API Interactiva: api.md
-  - Manueal: manual.md
+  - Manual: manual.md
   - Memoria Técnica (ADRs):
     - 001 Selección de Stack: adrs/ADR-001-Stack.md
     - 002 Estrategia Git: adrs/ADR-002-Estrategia-Git.md
