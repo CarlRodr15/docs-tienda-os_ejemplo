@@ -1,4 +1,4 @@
-site_name: DevDocs Hub - Tienda OS
+site_name: Ruta Cultural
 site_url: https://carlrodr15.github.io/docs-tienda-os_ejemplo/
 theme:
   name: material # Estilo moderno de industria
@@ -15,3 +15,6 @@ nav:
   - Memoria Técnica (ADRs):
     - 001 Selección de Stack: adrs/ADR-001-Stack.md
     - 002 Estrategia Git: adrs/ADR-002-Estrategia-Git.md
+    - 003 Historia: adrs/ADR-003-Historia.md
+    - 004 Mapa Interactivo: adrs/ADR-004-Mapa-Interactivo.md
+    - 005 Gastronomías y Artesanías: adrs/ADR-005-Gastronomías-Artesanías.md
