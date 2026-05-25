@@ -3,9 +3,8 @@ site_url: https://carlrodr15.github.io/docs-tienda-os_ejemplo/
 theme:
   name: material # Estilo moderno de industria
   palette:
-    primary: green
-    accent: light green
-
+  primary: blue grey
+  accent: light green
 nav:
   - Inicio: index.md
   - Arquitectura: arquitectura.md
