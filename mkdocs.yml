@@ -12,9 +12,9 @@ nav:
   - Manual: Manual.md
   - Instalación: Instalación.md
   - Gastronomía y Artesanía: artesanias.md
-  - Historia: histo.md
+  - 
   - Mapa interactivo: Mapa-interactivo.md
   - Memoria Técnica (ADRs):
     - 001 Selección de Stack: adrs/ADR-001-Stack.md
     - 002 Estrategia Git: adrs/ADR-002-Estrategia-Git.md
-  
+    - 003 Historia: adrs/ADR-003-Historia.md
