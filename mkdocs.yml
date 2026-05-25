@@ -7,15 +7,14 @@ theme:
   accent: light green
 nav:
   - Inicio: index.md
+  - Historia: historia.md
   - Arquitectura: arquitectura.md
   - API Interactiva: api.md
   - Manual: Manual.md
   - Instalación: Instalación.md
   - Gastronomía y Artesanía: artesanias.md
-  - 
   - Mapa interactivo: Mapa-interactivo.md
   - Memoria Técnica (ADRs):
     - 001 Selección de Stack: adrs/ADR-001-Stack.md
     - 002 Estrategia Git: adrs/ADR-002-Estrategia-Git.md
-    - 003 Historia: adrs/ADR-003-historia.md
-    
+   
