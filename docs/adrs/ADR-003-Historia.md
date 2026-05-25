@@ -1,5 +1,9 @@
 ## Historia del lugar
 
+![Rol](https://img.shields.io/badge/Rol-Investigador_del_Problema-blue)
+![Misión](https://img.shields.io/badge/Misión-Digitalizar_Agro_Local-green)
+![Estado](https://img.shields.io/badge/Estado-En_Curso-orange)
+
 Calima El Darién es un municipio del Valle del Cauca reconocido por su riqueza cultural, sus paisajes naturales y la importancia histórica que ha tenido en la región. Su historia está relacionada con las antiguas comunidades indígenas que habitaron el territorio y dejaron un legado cultural representado en tradiciones, artesanías y costumbres que aún se conservan.
 
 Con el paso de los años, el municipio se convirtió en un punto turístico destacado gracias al Lago Calima, considerado uno de los atractivos más importantes de la zona. Además de su belleza natural, Calima El Darién ha fortalecido su identidad cultural a través de la gastronomía típica, los emprendimientos locales y las actividades tradicionales que representan el esfuerzo y la creatividad de sus habitantes.
