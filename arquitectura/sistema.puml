@@ -1,0 +1,8 @@
+@startuml
+package "Tienda OS" {
+  [Frontend React] --> [API Gateway]
+  [API Gateway] --> [Servicio Inventario]
+  [API Gateway] --> [Servicio Pagos]
+  [Servicio Inventario] ..> [PostgreSQL]
+}
+@enduml
