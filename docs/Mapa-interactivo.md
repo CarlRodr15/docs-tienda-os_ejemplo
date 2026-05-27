@@ -6,7 +6,7 @@
 
 
 
-El mapa de ubicación se crea para ayudar a los turistas y visitantes a encontrar fácilmente los principales lugares culturales, gastronómicos y turísticos de Calima El Darién. Muchas veces, los emprendimientos locales y sitios representativos no son conocidos por las personas que visitan el municipio, lo que dificulta disfrutar completamente de la experiencia cultural y turística.
+🗺️El mapa de ubicación se crea para ayudar a los turistas y visitantes a encontrar fácilmente los principales lugares culturales, gastronómicos y turísticos de Calima El Darién. Muchas veces, los emprendimientos locales y sitios representativos no son conocidos por las personas que visitan el municipio, lo que dificulta disfrutar completamente de la experiencia cultural y turística.
 
 
 

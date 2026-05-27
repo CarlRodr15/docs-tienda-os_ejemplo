@@ -1,7 +1,7 @@
 # Historia y Legado Cultural
 
 ## Orígenes y Raíces Ancestrales
-Calima El Darién es un municipio del Valle del Cauca profundamente reconocido por su invaluable riqueza cultural, sus imponentes paisajes naturales y su trascendencia histórica en la región. El origen de este territorio está fuertemente entrelazado con las antiguas comunidades indígenas que lo habitaron; sociedades que legaron una herencia cultural única reflejada en las tradiciones, artesanías y costumbres que la comunidad local aún conserva con orgullo.
+🎭🪙✨Calima El Darién es un municipio del Valle del Cauca profundamente reconocido por su invaluable riqueza cultural, sus imponentes paisajes naturales y su trascendencia histórica en la región. El origen de este territorio está fuertemente entrelazado con las antiguas comunidades indígenas que lo habitaron; sociedades que legaron una herencia cultural única reflejada en las tradiciones, artesanías y costumbres que la comunidad local aún conserva con orgullo.
 
 ## Evolución e Identidad Territorial
 Con el paso del tiempo, el municipio se consolidó como un referente turístico de primer nivel gracias al Lago Calima, uno de los atractivos hídricos y paisajísticos más importantes del suroccidente colombiano. Más allá de su innegable belleza natural, Calima El Darién ha sabido robustecer su identidad a través de una gastronomía típica vibrante, una red de emprendimientos locales en crecimiento y diversas actividades tradicionales que proyectan el esfuerzo, el arraigo y la creatividad de sus habitantes.

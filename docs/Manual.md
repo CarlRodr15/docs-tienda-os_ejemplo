@@ -3,7 +3,7 @@
 
 ## 1. Introducción
 
-El presente manual tiene como finalidad explicar el funcionamiento, instalación, uso y estructura del proyecto **Ruta Cultural: Conoce Calima El Darién**.
+📖El presente manual tiene como finalidad explicar el funcionamiento, instalación, uso y estructura del proyecto **Ruta Cultural: Conoce Calima El Darién**.
 
 Esta aplicación fue desarrollada con el propósito de promover la cultura, gastronomía, artesanías y emprendimientos locales del municipio de Calima El Darién, facilitando a los turistas el acceso a información clara, organizada y útil sobre los diferentes lugares y productos representativos de la región.
 

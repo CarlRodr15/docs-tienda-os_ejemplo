@@ -1,11 +1,11 @@
 ## Gastronomía y artesanías
 ## Importancia cultural
 
-La gastronomía y las artesanías representan una parte fundamental de la identidad cultural de Calima El Darién. A través de sus platos típicos, productos tradicionales y creaciones artesanales, el municipio conserva costumbres y tradiciones que han sido transmitidas de generación en generación.
+🏞️La gastronomía y las artesanías representan una parte fundamental de la identidad cultural de Calima El Darién. A través de sus platos típicos, productos tradicionales y creaciones artesanales, el municipio conserva costumbres y tradiciones que han sido transmitidas de generación en generación.
 
 ## Gastronomía típica
 
-La aplicación permitirá a los visitantes conocer diferentes restaurantes, emprendimientos de comida y productos tradicionales de la región. Los turistas podrán encontrar información sobre:
+🍲🥘La aplicación permitirá a los visitantes conocer diferentes restaurantes, emprendimientos de comida y productos tradicionales de la región. Los turistas podrán encontrar información sobre:
 
 - Platos típicos del municipio.
 - Bebidas tradicionales.
@@ -17,7 +17,7 @@ Esto ayudará a promover la cultura gastronómica local y dará mayor visibilida
 
 ## Artesanías locales
 
-Las artesanías reflejan la creatividad, la tradición y el trabajo manual de los habitantes de Calima El Darién. A través de la plataforma, los artesanos podrán mostrar y promocionar sus productos para que más personas conozcan su talento y el valor cultural de sus creaciones.
+🪵Las artesanías reflejan la creatividad, la tradición y el trabajo manual de los habitantes de Calima El Darién. A través de la plataforma, los artesanos podrán mostrar y promocionar sus productos para que más personas conozcan su talento y el valor cultural de sus creaciones.
 
 **Entre las artesanías se podrán encontrar:**
 
